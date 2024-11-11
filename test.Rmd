@@ -22,5 +22,8 @@ max (ceosal1$salary)
 
 min (ceosal1$salary)
 mean (ceosal1$salary)
+View (ceosal1)
+model <- lm(salary ~ sales, data=ceosal1)
+summary (model)
 ```
 
