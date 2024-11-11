@@ -20,6 +20,7 @@ abline (results)
 
 max (ceosal1$salary)
 
+min (ceosal1$salary)
 mean (ceosal1$salary)
 ```
 
