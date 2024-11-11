@@ -17,5 +17,7 @@ summary (results)
 
 plot (ceosal1$lsalary, ceosal1$lsales)
 abline (results)
+
+max (ceosal1$salary)
 ```
 
