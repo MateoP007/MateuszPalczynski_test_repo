@@ -1,0 +1,21 @@
+---
+title: "Untitled"
+author: "Mateusz Pałczyński"
+date: "2024-11-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+####Dymy
+```{r}
+data (ceosal1, package='wooldridge')
+
+results <- lm (lsalary ~ lsales, data=ceosal1)
+summary (results)
+
+plot (ceosal1$lsalary, ceosal1$lsales)
+abline (results)
+```
+
